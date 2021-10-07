@@ -16,6 +16,7 @@ sheetPadrao = workbook.add_worksheet()
 add_merge_celulas = workbook.add_format({
     'bold': True, 
     'border': 6,
+    'align':'center',
     'valign': 'vcenter',
     'size': 30,
     'fg_color': 'blue',
